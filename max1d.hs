@@ -2,12 +2,12 @@ import Data.Char
 import qualified Data.List  
   
 main = do
-    putStrLn "Entre com a Lista"
+    putStrLn "Aguarde... O sistema está encontrando o valor da maior sequência."
     rs <- getAllLines
 
     putStrLn (show (max1d (stringToInt rs)))
 
-    putStrLn ("\nObrigado por utilizar")
+    putStrLn ("\nObrigado por utilizar!")
 
 stringToInt :: [[Char]] -> [Int]
 stringToInt [] = []
