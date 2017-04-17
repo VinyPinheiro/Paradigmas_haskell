@@ -11,7 +11,7 @@ public class Max1DRange{
 	    Scanner scan = new Scanner(System.in);
 
 
-	    System.out.println("Aguarde... O sistema está encontrando o valor da maior sequência.");
+	    System.out.println("Aguarde... O sistema está encontrando a sequência com maior soma.");
 	    for(int i = 0; scan.hasNext(); i++){
 	    	line = scan.next();
 	        if (line.equals("end"))

@@ -9,7 +9,7 @@ int  main(){
     vector<int> range;
 
 
-    cout << "Aguarde... O sistema está encontrando o valor da maior sequência." <<endl;
+    cout << "Aguarde... O sistema está encontrando a sequência com maior soma." <<endl;
     for(int i = 0; cin >> line; i++){
 
         if (line == "end")
